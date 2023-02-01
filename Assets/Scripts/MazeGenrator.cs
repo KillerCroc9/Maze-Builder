@@ -49,8 +49,7 @@ public class MazeGenrator : MonoBehaviour
     /// </summary>
     public class MyMaze
     {
-        // The code of the class is an adaptation, with the original commentary, of the answer given
-        // by user DoubleMx2 on August 25'13 to a question posted by user nazar_art at stackoverflow.com:
+       
 
         private int dimensionX, dimensionY; // dimension of maze
         public int gridDimensionX, gridDimensionY; // dimension of output grid
