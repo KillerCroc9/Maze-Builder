@@ -134,12 +134,7 @@ public class MazeGenrator : MonoBehaviour
                 return (x == otherCell.x) && (y == otherCell.y);
             }
 
-            // should be overridden with equals
-            public override int GetHashCode()
-            {
-                // random hash code method designed to be usually unique
-                return x + y * 256;
-            }
+           
 
         }
         // generate from upper left (In computing the y increases down often)
